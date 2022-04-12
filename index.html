@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <style type = "text/css">
+            body{
+                font-family: 'Noto sans, sans-serif';
+            }
+
+        </style>
+        <body>
+            <h2>Tabel Elevi</h2>
+            <p id = "data"></p>
+            <script type = "text/javascript">fetch('./data.json')
+
+            .then(function(response)
+            {
+                return response.json()
+            })
+            .then(function (data){
+                for(var i = 0 ; i < data.length ; i++)
+                   document.getElementById("data").innerHTML += data[i].students[i].firstname + " " + data[i].students[i].secondname + " " + data[i].students.note[i]
+            })
+            .catch(function(err){
+                console.log(err);
+            })
+
+            </script>
+        
+        </body>
+    </head>
+</html>
