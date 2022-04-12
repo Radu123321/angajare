@@ -1,0 +1,26 @@
+{
+    "students": {
+        "10A": [
+            {"firstname":"Alex", "secondname":"Zaharia", "note":5, "discipline":"Math"},
+            {"firstname":"Alexandru", "secondname":"Marcu", "note":6, "discipline":"Math"},
+            {"firstname":"Andreea", "secondname":"Jinga", "note":3, "discipline":"Math"},
+            {"firstname":"Andrei", "secondname":"Tocila", "note":2, "discipline":"Math"},
+            {"firstname":"Bianca", "secondname":"Avarvarei", "note":8, "discipline":"Math"},
+            {"firstname":"Bogdan", "secondname":"Florea", "note":10, "discipline":"Math"},
+            {"firstname":"Catalin", "secondname":"Munteanu", "note":10, "discipline":"Math"},
+            {"firstname":"Cosmin", "secondname":"Pasat", "note":10, "discipline":"Math"},
+            {"firstname":"Cristi", "secondname":"Butescu", "note":9, "discipline":"Math"}
+        ],
+        "11A": [
+            {"firstname":"Alin", "secondname":"Stefan", "note":5, "discipline":"Math"},
+            {"firstname":"Andrei", "secondname":"Mihai", "note":6, "discipline":"Math"},
+            {"firstname":"Ionel", "secondname":"George", "note":3, "discipline":"Math"},
+            {"firstname":"Moise", "secondname":"Octavian", "note":2, "discipline":"Math"},
+            {"firstname":"Petru", "secondname":"Stefan", "note":8, "discipline":"Math"},
+            {"firstname":"Petru", "secondname":"Andrei", "note":10, "discipline":"Math"},
+            {"firstname":"George", "secondname":"Stefan", "note":10, "discipline":"Math"},
+            {"firstname":"Mihai", "secondname":"Stefan", "note":10, "discipline":"Math"},
+            {"firstname":"Mihai", "secondname":"Georfe", "note":9, "discipline":"Math"}
+        ]
+    }
+}
